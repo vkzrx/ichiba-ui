@@ -1,7 +1,5 @@
 import './globals.css';
-import { Inter } from 'next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
+import { TopBar } from '~/components/topbar';
 
 export const metadata = {
   title: 'Ichiba | Marketplace',
@@ -11,7 +9,10 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="h-screen px-8">
+        <TopBar />
+        {children}
+      </body>
     </html>
   );
 }
