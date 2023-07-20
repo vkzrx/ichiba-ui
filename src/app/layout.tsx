@@ -2,8 +2,8 @@ import './globals.css';
 import { TopBar } from '~/components/topbar';
 
 export const metadata = {
-  title: 'Ichiba | Marketplace',
-  description: 'E-commerce platform',
+  title: 'Ichiba | Online Store',
+  description: 'Modern japanese streetwear where tradition graces fashion',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
