@@ -22,8 +22,8 @@ export default async function Home() {
           </Link>
         </div>
       </div>
-      <div className="grow flex items-center justify-end border-b border-b-black mb-10">
-        <Image priority src="/assets/hero.png" alt="Hero Image" width="520" height="800" />
+      <div className="grow flex border-b border-b-black mb-10">
+        <Image priority src="/assets/hero.png" alt="Hero" width="620" height="800" />
       </div>
     </main>
   );
